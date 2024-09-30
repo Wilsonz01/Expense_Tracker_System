@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: skyblue; /* Light background for contrast */
+}
+
+.save-me{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center; /* Center align text */
+}
+
+.events {
+    display: flex;
+    flex-direction: column; /* Stack the event cards vertically */
+    align-items: center; /* Center align the event cards */
+    gap: 20px;
+}
+
+.event-card {
+    border: 2px solid #007bff; /* Slightly thicker border */
+    padding: 25px; /* Increased padding */
+    border-radius: 10px;
+    width: 300px; /* Wider card */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em; /* Larger font size */
+    background-color: #ffffff; /* White background for cards */
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.event-card h2,
+.event-card p {
+    text-align: center; /* Center text within each card */
+    margin: 5px 0; /* Add some spacing */
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 1em; /* Larger font size for the button */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

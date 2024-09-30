@@ -1,0 +1,49 @@
+.contain {
+    display: flex;
+}
+
+.section {
+    width: 250px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 20%;
+    margin-top: 20%;
+    flex-grow: 1; /* Allow the list to take up remaining space */
+}
+
+.section ul li {
+    
+    width: 100%;
+}
+
+.section ul li a {
+    
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.section ul li a:hover {
+    background-color: #575757;
+    color: white; /* Change text color on hover for better contrast */
+}
+
+/* Optional: Adjust the main content area */
+.main-content {
+    margin-left: 250px; /* Ensure content is displayed next to the sidebar */
+    padding: 20px; /* Add some padding for aesthetics */
+    flex-grow: 1; /* Allow the content area to grow */
+}

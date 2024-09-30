@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    text-align: center; /* Center-aligns all text */
+}
+
+/* Content section */
+.container {
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
+    width: 800px; /* Optional: sets a maximum width */
+}
+
+.event-expenses {
+    margin: 0 auto; /* Centers the event expenses div */
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 36px; /* Increase font size */
+}
+
+label {
+    font-size: 20px; /* Increase label font size */
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    font-size: 18px; /* Increase input font size */
+    width: 200px; /* Fixed width for inputs */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px; /* Increase padding for larger cells */
+    text-align: center; /* Center-aligns table content */
+    font-size: 18px; /* Increase font size for table content */
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 24px; /* Increase font size for total */
+}
+.add{
+    color: blue;
+}

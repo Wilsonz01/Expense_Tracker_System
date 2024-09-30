@@ -1,0 +1,108 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    
+    margin-left: 500px;
+    padding: 10px 0;
+    color: black;
+}
+
+/* Dashboard container */
+.dashboard {
+    padding: 20px;
+    text-align: center;
+    background-color: skyblue;
+    height: 700px;
+    color: white;
+}
+
+/* Container for sections */
+.container {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 10px;
+    
+}
+
+/* Sidebar section */
+.section h2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+.section1 {
+    margin: 50px;
+    align-items: center;
+    height: 500px;
+    flex: 1;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.section {
+    height: 250px;
+    flex: 1;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Style for the unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+ul li a {
+    
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #ddd;
+}
+
+/* Section for total and year expense */
+#total-expense, #year-expense {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure it takes full height of the viewport */
+}
+
+.monthly-expenses {
+    max-width: 600px; /* Maintain max width */
+    margin: 50px auto; /* Center horizontally with auto margins */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Keep text centered */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.months-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.month {
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.month span {
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #d9534f;
+}
